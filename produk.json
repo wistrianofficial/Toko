@@ -1,0 +1,51 @@
+[
+  {
+    "id": "p1",
+    "nama": "Wistrian Blue Ocean",
+    "harga": "75000",
+    "kategori": "Pria",
+    "gambar": "img/pria1.jpg",
+    "deskripsi": "Aroma maskulin segar dengan sentuhan citrus dan woody, cocok untuk aktivitas harian."
+  },
+  {
+    "id": "p2",
+    "nama": "Wistrian Sweet Bloom",
+    "harga": "80000",
+    "kategori": "Wanita",
+    "gambar": "img/wanita1.jpg",
+    "deskripsi": "Wewangian feminin dengan nuansa bunga segar yang lembut dan menenangkan."
+  },
+  {
+    "id": "p3",
+    "nama": "Wistrian Little Star",
+    "harga": "60000",
+    "kategori": "Anak",
+    "gambar": "img/anak1.jpg",
+    "deskripsi": "Parfum khusus anak dengan aroma lembut dan tidak menyengat, aman digunakan sehari-hari."
+  },
+  {
+    "id": "p4",
+    "nama": "Wistrian Bold Spice",
+    "harga": "82000",
+    "kategori": "Pria",
+    "gambar": "img/pria2.jpg",
+    "deskripsi": "Wewangian berkarakter kuat dan tahan lama dengan aroma spicy dan leather."
+  },
+  {
+    "id": "p5",
+    "nama": "Wistrian Rose Petal",
+    "harga": "85000",
+    "kategori": "Wanita",
+    "gambar": "img/wanita2.jpg",
+    "deskripsi": "Kombinasi aroma mawar dan buah segar yang elegan dan memikat."
+  },
+  {
+    "id": "p6",
+    "nama": "Wistrian Fun Day",
+    "harga": "62000",
+    "kategori": "Anak",
+    "gambar": "img/anak2.jpg",
+    "deskripsi": "Parfum anak dengan wangi ceria dan desain botol yang lucu."
+  }
+]
+

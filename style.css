@@ -1,0 +1,61 @@
+
+body {
+  font-family: 'Aromi', sans-serif;
+  background-color: #f0f4ff;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#filters button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+#filters button:hover {
+  background-color: #0066cc;
+}
+#product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.product {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.product button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.product button:hover {
+  background-color: #0066cc;
+}
+#cart-icon {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Online</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Aromi&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Toko Online</h1>
+    <div id="cart-icon">🛒 <span id="cart-count">0</span></div>
+  </header>
+  <main>
+    <input type="text" id="search" placeholder="Cari produk..." />
+    <div id="filters">
+      <button onclick="filterProduk('Semua')">Semua</button>
+      <button onclick="filterProduk('Pria')">Pria</button>
+      <button onclick="filterProduk('Wanita')">Wanita</button>
+      <button onclick="filterProduk('Anak')">Anak</button>
+    </div>
+    <section id="product-list"></section>
+  </main>
+  <div id="checkout-panel" class="hidden">
+    <h2>Keranjang</h2>
+    <div id="cart-items"></div>
+    <button onclick="showForm()">Lanjutkan Pesanan</button>
+  </div>
+  <div id="form-panel" class="hidden">
+    <h2>Form Pembelian</h2>
+    <form id="order-form">
+      <input type="text" placeholder="Nama" name="nama" required /><br>
+      <input type="tel" placeholder="Nomor Telepon" name="telepon" required /><br>
+      <textarea placeholder="Alamat Lengkap" name="alamat" required></textarea><br>
+      <button type="submit">Kirim ke WhatsApp</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
